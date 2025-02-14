@@ -25,13 +25,13 @@ Como Executar
 3. Execute o binário gerado.
 
 ## To run
-### compilation on Linux
+### Compilar no Linux
 
 ```sh
 g++ main.cpp -o game -lglut -lGLU -lGL -lSDL2 -lSDL2_mixer -I/usr/include/glm
 ```
 
-### compilation on Windows
+### Compilar no Windows
 
 ```sh
 g++ main.cpp -o brickbreaker -lglu32 -lopengl32 -lglut32 -lSDL2 -lSDL2_mixer
